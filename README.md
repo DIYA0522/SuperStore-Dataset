@@ -1,59 +1,64 @@
-# Retail Sales Analysis Using Excel
+# Retail Sales Analysis & Dashboard Using Excel
 
 ## 📌 Project Overview
-This project focuses on analyzing a retail sales dataset using **Microsoft Excel** by following the **6-step data analysis process**: Ask, Prepare, Process, Analyze, Share, and Act.  
-The objective is to identify key business insights related to **sales performance, profitability, and the impact of discounts**.
+This project analyzes a retail sales dataset using **Microsoft Excel**, following the **6-step data analysis process**: Ask, Prepare, Process, Analyze, Share, and Act.  
+The project concludes with an **interactive Excel dashboard** that visualizes key performance indicators and business insights.
 
 ---
 
 ## 🎯 Business Objectives
-- Identify the most profitable product categories
-- Analyze the relationship between discounts and profit
-- Determine optimal discount ranges to maximize profitability
-- Provide actionable business recommendations based on data
+- Identify top-performing product categories
+- Evaluate overall sales and profitability
+- Analyze the impact of discounts on profit
+- Build an interactive dashboard for business decision-making
 
 ---
 
 ## 📂 Dataset
-- **Source:** Kaggle (Sample Superstore dataset)
+- **Source:** Kaggle – Sample Superstore Dataset
 - **Tool Used:** Microsoft Excel
-- **Key Columns:**
-  - Sales
-  - Quantity
-  - Discount
-  - Profit
-  - Category
-  - Sub-Category
+- **Dataset Type:** Retail Sales Transaction Data
+
+### Key Columns
+- Sales
+- Quantity
+- Discount
+- Profit
+- Category
+- Sub-Category
 
 ---
 
-## 🛠 Tools & Techniques
+## 🛠 Tools & Skills Used
 - Microsoft Excel
 - Pivot Tables
-- Pivot Charts (Column & Bar Charts)
-- Basic data formatting (Currency & Percentage)
+- Pivot Charts
+- KPI Cards
+- Slicers
+- Data Formatting (Currency & Percentage)
+- Dashboard Design
 
 ---
 
 ## 🔍 Data Analysis Process
 
 ### 1️⃣ Ask
-Defined business questions such as:
-- Which category generates the highest sales and profit?
-- How do discounts affect overall profitability?
+Defined key business questions such as:
+- Which product categories generate the highest sales and profit?
+- How do different discount levels affect profitability?
 
 ---
 
 ### 2️⃣ Prepare
-- Reviewed dataset structure
-- Verified column relevance
-- Converted data range into an Excel Table for easier analysis
+- Reviewed dataset structure and columns
+- Converted data into an Excel Table
+- Verified data readiness for analysis
 
 ---
 
 ### 3️⃣ Process (Data Cleaning)
-- Checked for missing values and duplicates (none found)
-- Verified data consistency
+- Checked for missing values and duplicate records (none found)
+- Verified data consistency across numeric columns
 - Applied formatting:
   - Sales & Profit → Currency
   - Discount → Percentage
@@ -69,40 +74,54 @@ Created Pivot Tables to analyze:
 - Profit by Category
 - Discount vs Total Profit
 
-Generated Pivot Charts for clear visualization of insights.
+Identified patterns linking higher discount levels to reduced profitability.
 
 ---
 
 ### 5️⃣ Share (Key Insights)
 - Technology is the top-performing category in both sales and profit.
-- Orders with **0% discount** contribute the highest overall profit.
+- Orders with **0% discount** contribute the highest share of total profit.
 - Moderate discounts (10–20%) remain profitable.
-- Discounts above **30% consistently result in losses**, with the highest losses at 70–80% discount levels.
+- Discounts above **30% consistently result in losses**, with the highest losses occurring at 70–80% discount levels.
 
 ---
 
-### 6️⃣ Act (Recommendations)
+### 6️⃣ Act (Business Recommendations)
 - Avoid offering discounts greater than 30%.
 - Focus on non-discounted and moderately discounted sales (0–20%).
 - Prioritize Technology category for revenue and profit growth.
-- Re-evaluate aggressive discount strategies that lead to losses.
+- Reassess aggressive discount strategies that negatively impact profit.
 
 ---
 
-## 📊 Visualizations
-- Sales by Category (Column Chart)
-- Profit by Category (Column Chart)
-- Discount vs Profit (Bar Chart)
+## 📊 Dashboard Overview (NEW)
 
-All charts are dynamically linked to Pivot Tables.
+An **interactive Excel dashboard** was created to summarize insights and support decision-making.
+
+### Dashboard Components
+- **KPI Cards**
+  - Total Sales
+  - Total Profit
+  - Average Discount
+- **Pivot Charts**
+  - Sales by Category
+  - Profit by Category
+  - Discount vs Profit
+- **Slicers**
+  - Category
+  - Discount  
+  *(Connected to all Pivot Tables for dynamic filtering)*
+
+The dashboard allows users to explore performance trends interactively and identify loss-driving discount ranges.
 
 ---
 
 ## 📝 Conclusion
-This analysis demonstrates how Excel can be effectively used to derive meaningful business insights. By limiting high-discount strategies and focusing on profitable categories, businesses can significantly improve overall profitability.
+This project demonstrates how Excel can be used end-to-end for data analysis and dashboard creation. By combining Pivot Tables, KPIs, charts, and slicers, the analysis highlights profitable categories and reveals that high discount strategies significantly reduce overall profitability.
 
 ---
 
 ## 📌 Author
 **Diya Mariam Philip**  
 Aspiring Data Analyst  
+
