@@ -1,0 +1,108 @@
+ASK
+
+1. Which category and sub-category generate the most sales?
+2. Which regions are profitable and which are not?
+3. Are high discounts reducing profit?
+4. Which customer segment is most valuable?
+
+PREPARE 
+1.
+Number of rows & columns
+Rows: 129935
+Columns: 13
+
+2.
+Data types (dates, numbers, text)
+Text
+Numeric
+
+3.
+Freeze Header Row
+click Row 2 (2 on left) or any cell outside
+click View tab> Freeze Panes> Freeze Top Row
+
+4.
+Convert Data to Table
+click any cell> Home> Format as Table> Choose any style> Confirm My header checkbox checked> OK
+
+Analyst Tip:
+
+Always freeze headers BEFORE creating pivot tables.
+It avoids confusion when datasets are large.
+
+Process
+Check for Blanks
+Uncheck all and check only Blanks
+
+Verify Datatypes
+Dates
+Click Order Date
+Check:
+Right-aligned
+Format = Date (Home → Number)
+
+Check Duplicates
+Select Order ID column
+Go to Home → Conditional Formatting
+Click Highlight Cells Rules → Duplicate Values
+If:
+No highlights → No duplicates
+Highlights appear → investigate (don’t delete blindly)
+
+Rename Columns
+With better words or usinf _ for readability
+
+Format columns to Currency, Date or Percentage as required
+
+Document
+The dataset was inspected for missing values, duplicate records, and data type inconsistencies. No null values or duplicates were found in key columns. Percentage and currency formats were provided for discount, sales and profit columns. No data removal or correction was required.
+
+Analysis
+
+1. Which Category generates the most Sales?
+2. Which Category is most Profitable / Loss-making?
+3. How does Discount impact Profit?
+
+🔹 ANALYSIS 1: Sales by Category
+Created a Pivot Table with Catogory in Rows, Sum of Sales in Values.
+
+Technology category contributes the highest overall sales, followed by Furniture and Office Supplies.”
+
+🔹 ANALYSIS 2: Profit by Category
+Technology leads both in sales and profitability, making it the strongest performing category. Furniture shows moderate profitability, while Office Supplies contributes the least to overall profit.
+
+🔹 ANALYSIS 3: Discount vs Profit
+Discounts above 30% consistently result in losses, while orders with 0–20% discounts remain profitable. The majority of total profit comes from non-discounted sales
+
+🧠 Business Interpretation
+
+High discounts reduce margins drastically
+Discounting does not always increase volume enough to offset losses
+Aggressive promotions harm profitability
+
+Share
+Insights
+1. Technology is the top-performing category in both sales and profit.
+2. Orders without discounts contribute the highest share of total profit.
+3. Discounts above 30% consistently lead to losses, with the highest losses at 70–80% discount levels.
+4. Moderate discounts (10–20%) maintain profitability, suggesting an optimal discount range.
+
+Act 
+Recommentations
+1. Avoid offering discounts above 30%
+2. Focus on 0–20% discount strategies
+3. Prioritize Technology category for revenue growth
+4. Re-evaluate high-discount promotions that lead to losses
+
+
+I used Pivot Charts linked to Pivot Tables to clearly visualize key metrics such as category-wise profit and discount impact. This allows quick insights and dynamic filtering.
+
+Final Conclusion
+Using Excel, I analyzed a retail sales dataset to evaluate category performance and the impact of discounts on profitability. The analysis revealed that Technology is the most profitable category. Additionally, non-discounted and moderately discounted (10–20%) orders contribute positively to overall profit, while discounts above 30% consistently result in losses. These findings suggest that limiting high-discount strategies can significantly improve business profitability.
+
+
+
+
+
+
+
